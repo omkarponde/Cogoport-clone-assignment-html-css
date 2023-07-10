@@ -1,0 +1,100 @@
+.introduction-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+  /* position: relative;
+  width: 100%;
+  padding-top: 57px;
+  margin-top: -57px; */
+  /* background-color: yellow; */
+  width: 100%;
+  background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp);
+
+  background-position: bottom;
+  background-size: 100%;
+  
+}
+.introduction-section{
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 392px;
+  padding: 16px;
+}
+.introduction-left-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.introduction-title{
+  /* font-family: 'PT Sans', sans-serif; */
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px 0px 20px 0px;
+}
+.introduction-subtitle{
+  font-size: 16px;
+  /* font-family: "PT Sans",sans-serif; */
+  width: 400px;
+  line-height: 1.5;
+}
+.talk-us-now{
+  font-size: 12px;
+  font-weight: bold;
+}
+.contact-through-whatsapp{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-items: center;
+  height: 41px;
+  border-radius: 22px;
+  width: 495px;
+}
+.icon-number{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  /* justify-content: center; */
+}
+
+.country-code{
+  padding: 0px 0px 0px 10px;
+}
+.drop-down-arrow{
+  width: 12px;
+  padding: 0px 16px 0px 0px;
+}
+.whatsapp-number{
+  height: 39px;
+  width: 280px;
+  border-width: 0;
+}
+.green-get-started-button{
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(54, 187, 34);
+  border-width: 0;
+  cursor: pointer;
+  padding: 6px 10px ;
+  border-radius: 20px;
+}
+
+.styles_desktop_image__WOlJu {
+    display: flex;
+    flex: 1 1;
+    width: 595px;
+    height: 435px;
+    margin-bottom: -39px;
+}
+.styles_mobile_image__nHLp0 {
+  display: none;
+  flex: 1 1;
+  width: 595px;
+  height: 400px;
+}

@@ -1,0 +1,63 @@
+.subscribe-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(251,220,0);
+  width: 100%;
+}
+
+.subscribe-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  min-width: 1000px;
+}
+.subscribe-left-section{
+  padding: 20px;
+  margin: 20px;
+  width: 50%;
+}
+.subscribe-section-image{
+  width: 100%;
+  height: 100%;
+}
+.subscribe-right-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.subscribe-header{
+  font-size: 30px;
+  margin: 0px;
+}
+.email-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 20px 0px 0px 0px ;
+}
+.email-input{
+  padding: 10px;
+  width: 250px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid;
+  border-width: 0;
+}
+.subscribe-button{
+  display: flex;
+  flex-direction: row;
+  padding: 4px 16px;
+  background-color: rgb(238,52,37);
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-width: 0;
+  outline: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
